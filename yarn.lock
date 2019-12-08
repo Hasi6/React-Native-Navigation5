@@ -937,6 +937,13 @@
   dependencies:
     "@react-navigation/routers" "^5.0.0-alpha.15"
 
+"@react-navigation/material-top-tabs@^5.0.0-alpha.20":
+  version "5.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/@react-navigation/material-top-tabs/-/material-top-tabs-5.0.0-alpha.20.tgz#f2b7607f58a8b5a65ecbf42562f091cf9b0f0f51"
+  integrity sha512-RWWmaY2lR72neusioaXj/Ug7fYaxCtLPmFJ6dFG49kOYQMS1Tr0QIJ2w7GhjnhHrztk0thQh5rmJF8+JJSOtPg==
+  dependencies:
+    "@react-navigation/routers" "^5.0.0-alpha.15"
+
 "@react-navigation/native-stack@^5.0.0-alpha.15":
   version "5.0.0-alpha.15"
   resolved "https://registry.yarnpkg.com/@react-navigation/native-stack/-/native-stack-5.0.0-alpha.15.tgz#40377590c635e0e813fc0d1a005c0ff8f18fb59c"
@@ -4306,6 +4313,11 @@ react-native-screens@^2.0.0-alpha.17:
   integrity sha512-iofz5owfGT5K6V9gI3JISrL/dh5yVc5ScLAKqWQgKcbf3yG98ondr4zuwcX6t7G6IfhnDWG7qgkmWBG4u7g3Ww==
   dependencies:
     debounce "^1.2.0"
+
+react-native-tab-view@^2.11.0:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/react-native-tab-view/-/react-native-tab-view-2.11.0.tgz#2e57d1f617ccc88c7f452708804f3409f880b700"
+  integrity sha512-vqetlxGO7A8bnqvXcB50MWpRZAImXFrDGz1WCQKdCqe03Ey3ZzENe7yLuWrtBJYlepGfOLAsmCXv+wW82Yfm1w==
 
 react-native-view-shot@2.6.0:
   version "2.6.0"

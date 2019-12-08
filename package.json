@@ -12,6 +12,7 @@
     "@react-navigation/bottom-tabs": "^5.0.0-alpha.23",
     "@react-navigation/core": "^5.0.0-alpha.26",
     "@react-navigation/drawer": "^5.0.0-alpha.25",
+    "@react-navigation/material-top-tabs": "^5.0.0-alpha.20",
     "@react-navigation/native": "^5.0.0-alpha.16",
     "@react-navigation/native-stack": "^5.0.0-alpha.15",
     "@react-navigation/stack": "^5.0.0-alpha.40",
@@ -23,6 +24,7 @@
     "react-native-reanimated": "~1.2.0",
     "react-native-safe-area-context": "~0.3.6",
     "react-native-screens": "^2.0.0-alpha.17",
+    "react-native-tab-view": "^2.11.0",
     "react-native-web": "^0.11.7"
   },
   "devDependencies": {

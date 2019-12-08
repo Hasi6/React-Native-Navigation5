@@ -4,16 +4,24 @@ import { Text, View, Button } from "react-native";
 import { NavigationNativeContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createDrawerNavigator } from "@react-navigation/drawer";
+import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
+
+
+import 'react-native-gesture-handler'
 
 import { Ionicons } from "@expo/vector-icons";
 import { TouchableOpacity } from "react-native-gesture-handler";
 
+const TopTab = createMaterialTopTabNavigator();
 const Tab = createBottomTabNavigator();
 const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
 
 const Feed = () => {
-  return <Text>Feed</Text>;
+  return (<TopTab.Navigator>
+    <TopTab.Screen name="Feed" component={Settings} />
+    <TopTab.Screen name="Article" component={Article} />
+  </TopTab.Navigator>);
 };
 const Article = () => {
   return <Text>Settings</Text>;
